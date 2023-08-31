@@ -41,7 +41,7 @@ Inicio
    totalaPagar <- total - desconto
 
    escreval( " Total: ", total )
-   escreval( " Desconto: ", desconto )
-   escreval( " Total a pagar: ", totalaPagar )
+   escreval( " Desconto: ", desconto :3:2 )
+   escreval( " Total a pagar: ", totalaPagar :3:2)
 
 Fimalgoritmo

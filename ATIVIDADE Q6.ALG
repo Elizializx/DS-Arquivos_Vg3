@@ -34,22 +34,21 @@ Inicio
 
    limpatela
 
-   se( media > 6 )ou( media = 6 )entao
+   se( media >= 6 ) entao
       escreval( " PARABÉNS VOCÊ FOI APROVADOOOOOO! " )
    senao
-      se( media < 4 )entao
-         escreval( " REPROVADOOOOOOOOO! " )
+      se( media >= 4 )entao
+         escreval( " RECUPEÇÃOOOOOOOOOOO! " )
       senao
-         se( media <= 4 )ou( media > 4 )entao
-            escreval( " RECUPEÇÃOOOOOOOOOOO! " )
-         fimse
+         escreval( " REPROVADOOOOOOOOO! " )
       fimse
    fimse
 
-   escreval( " Nome: ", nome )
-   escreval( " Idade: ", idade )
-   escreval( " Primeira nota: ", primeiraNota )
-   escreval( " Segunda nota: ", segundaNota )
-   escreval( " Média: ", media :2:1)
+
+escreval( " Nome: ", nome )
+escreval( " Idade: ", idade )
+escreval( " Primeira nota: ", primeiraNota )
+escreval( " Segunda nota: ", segundaNota )
+escreval( " Média: ", media :2:1)
 
 Fimalgoritmo

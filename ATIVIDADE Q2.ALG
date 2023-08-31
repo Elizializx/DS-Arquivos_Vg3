@@ -23,7 +23,7 @@ Inicio
    escreva( " Insira seu estado civil: " )
    leia(estadoCivil)
 
-   se( sexo = "feminino" )ou( estadoCivil = "casada"  )entao
+   se( sexo = "feminino" )e( estadoCivil = "casada"  )entao
       escreva( " Insira tempo de casada: " )
       leia(anosDeCasada)
    fimse
@@ -33,7 +33,12 @@ Inicio
    escreval( " Nome: ", nome )
    escreval( " Sexo: ", sexo )
    escreval( " Estado civil: ", estadoCivil )
-   escreval( " Tempo de casada: ", anosDeCasada )
+
+   se( sexo = "feminino" )e( estadoCivil = "casada"  )entao
+      escreval( " Tempo de casada: ", anosDeCasada )
+   fimse
+
+
 
 
 Fimalgoritmo

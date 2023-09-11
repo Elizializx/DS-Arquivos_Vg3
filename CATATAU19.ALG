@@ -20,6 +20,8 @@ Inicio
 
    escreva( " Insira o valor do produto: " )
    leia(produto)
+   
+   escreval( "" )
 
    escreval( " 1- Pagamento à vista; " )
    escreval( " 2- Pagamento à prazo. " )
@@ -28,7 +30,7 @@ Inicio
 
    limpatela
 
-   escreval( " Valor do produto: ", produto )
+   escreval( " Valor do produto: ", produto :2:2 )
    escreval( " Forma de pagamento: ", formaPagar )
 
    desconto <- produto * 0.1
@@ -39,7 +41,7 @@ Inicio
       escreval( " Valor do desconto: ", desconto )
    caso 2
       escreval( " Parcela até 6 vezes! " )
-      escreva( " Insira o números de parcelas: " )
+      escreva( " Insira o número de parcelas: " )
       leia(parcelas)
       total <- produto / parcelas
       escreval( " Quantidade de parcelas escolhidas: ", parcelas )

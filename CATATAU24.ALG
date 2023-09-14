@@ -12,7 +12,7 @@ Var
 Inicio
    // Seção de Comandos, procedimento, funções, operadores, etc...
 
-   para i de 100 ate 200 passo 1 faca
+   para i de 100 ate 200 passo 2 faca
       escreval( i )
    fimpara
 
